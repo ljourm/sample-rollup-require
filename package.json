@@ -12,5 +12,15 @@
     "rollup": "^2.79.1",
     "tslib": "^2.4.0",
     "typescript": "^4.8.3"
+  },
+  "scripts": {
+    "run:00": "node ./projects/00-first-issue/dist/index.js",
+    "run:01": "node ./projects/01-include-ts-js/dist/index.js",
+    "run:02": "node ./projects/02-only-js/dist/index.js",
+    "run:03": "node ./projects/03-use-loader/dist/index.js",
+    "bundle:00": "rollup -c ./projects/00-first-issue/rollup.config.js",
+    "bundle:01": "rollup -c ./projects/01-include-ts-js/rollup.config.js",
+    "bundle:02": "rollup -c ./projects/02-only-js/rollup.config.js",
+    "bundle:03": "rollup -c ./projects/03-use-loader/rollup.config.js"
   }
 }
